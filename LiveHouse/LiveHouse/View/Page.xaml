@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LiveHouse"  
+             x:Class="LiveHouse.View.Page" x:Name="page" Background="Black">
+
+    <ContentPage.Content>
+        
+        <StackLayout BackgroundColor="Black">
+            
+            <SearchBar x:Name="search" Placeholder="探索" BackgroundColor="White"  TextChanged="OnTextChanged"/>
+            <ScrollView BackgroundColor="Black">
+                <StackLayout BackgroundColor="Black">
+                    
+        <ListView BackgroundColor="Black"  x:Name="HouseList">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell >
+                        <StackLayout BackgroundColor="Black"
+                        Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                                <Button  BackgroundColor="Black" HorizontalOptions="CenterAndExpand" TextColor="Wheat" x:Name="VenueLabel" Text="{Binding Name}" Clicked="Venue_Clicked" />
+                           
+                             
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+               
+            </StackLayout>
+            </ScrollView>
+             </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

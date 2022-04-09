@@ -6,8 +6,7 @@
 - Maps integration
 
 - ListView
-- 
-- <img width="419" alt="Screen Shot 2022-04-09 at 4 39 33 PM" src="https://user-images.githubusercontent.com/100133514/162562077-c5875c32-319d-4aa1-b09c-8dcaaf0f76a1.png">
+<img width="419" alt="Screen Shot 2022-04-09 at 4 39 33 PM" src="https://user-images.githubusercontent.com/100133514/162562077-c5875c32-319d-4aa1-b09c-8dcaaf0f76a1.png">
 
 
 
